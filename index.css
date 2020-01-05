@@ -1,0 +1,92 @@
+body {
+    background-color: #181621;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    overflow: hidden;
+}
+
+.main {
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.header {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 75px;
+    color: #C42B54;
+    line-height: 65px;
+    position: relative;
+}
+
+.greet {
+    text-align: center;
+    font-size: 75px;
+    color: #C42B54;
+}
+
+.vspace {
+    padding: 10px;
+}
+
+.solar {
+    position: relative;
+    top: 10%;
+    bottom: 4%;
+}
+
+.links {
+    line-height: 30px;
+    position: relative;
+    font-size: 20px;
+    color: #C63E43;
+}
+
+a {
+    color: #C63E43;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+/** Accordian 
+
+.container {
+    margin-left: 20%;
+    font-size: 20px;
+    padding: 0px 10px;
+    width: 500px;
+}
+
+.accordion {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 25px;
+    background-color: transparent;
+    color: #C63E43;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+  
+.panel {
+    max-height: 0;
+    text-align: center;
+    overflow: hidden;
+    width: 25%;
+    transition: max-height 0.2s ease-out;
+}
+
+**/

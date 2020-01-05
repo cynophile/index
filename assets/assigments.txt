@@ -1,0 +1,8 @@
+class, assignment, due date, link
+344, homework1: sqlite, 10/02/2019 11:00pm, https://gitlab.cs.washington.edu/cse344-au19/source/hw1/blob/master/hw1/hw1.md
+344, homework2: basic sql queries, 10/09/2019 11:00pm, https://gitlab.cs.washington.edu/cse344-au19/source/hw2/blob/master/hw2.md
+344, homework3: advanced sql & azure,10/18/2019 11:00pm, https://gitlab.cs.washington.edu/cse344-au19/source/hw3/blob/master/hw3/hw3.md
+344, homework4: ra & datalog,10/25/2019 11:00pm, https://gitlab.cs.washington.edu/cse344-au19/source/hw4/blob/master/hw4/hw4.md
+446, assignment0, 10/03/2019 11:59pm, https://courses.cs.washington.edu/courses/cse446/19au/hw0.pdf
+446, assignment1,10/16/2019 11:59pm, https://courses.cs.washington.edu/courses/cse446/19au/hw1.pdf
+473, project1: search in pacman, 10/10/2019 11:45pm, https://courses.cs.washington.edu/courses/cse473/19au/assignments/project1/project.html
