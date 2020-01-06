@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="/src/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap">
+    <script language="javascript">
+        function getGreeting() {
+          let date = new Date();
+          let hour = date.getHours();
+          if (hour > 5 && hour < 12) {
+              greeting = " morning.";
+          } else if (hour >= 12 && hour <= 17) {
+                greeting = " afternoon.";
+          } else {
+              greeting = " evening.";
+          }
+          document.getElementById('greet').innerHTML = "@idess,<br> good" + greeting;
+        }
+    </script>
+    <title>homepage</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <div id="greet">asdasd</div>
+        <div id="solar"><img src="/assets/solar.png" onload="getGreeting()"></div>
+      </div>
+    </div>
+  </body>
+</html>

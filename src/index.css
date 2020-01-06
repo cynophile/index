@@ -57,36 +57,3 @@ a:hover {
     width: 100%;
     z-index: -1;
 }
-
-/** Accordian 
-
-.container {
-    margin-left: 20%;
-    font-size: 20px;
-    padding: 0px 10px;
-    width: 500px;
-}
-
-.accordion {
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 25px;
-    background-color: transparent;
-    color: #C63E43;
-    border: none;
-    outline: none;
-    transition: 0.5s;
-    padding: 10px;
-    float: left;
-    text-align: center;
-    width: 25%;
-}
-  
-.panel {
-    max-height: 0;
-    text-align: center;
-    overflow: hidden;
-    width: 25%;
-    transition: max-height 0.2s ease-out;
-}
-
-**/
