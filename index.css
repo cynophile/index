@@ -1,0 +1,59 @@
+body {
+  background-color: #181621;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  overflow: hidden;
+}
+
+.main {
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.header {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 75px;
+  color: #C42B54;
+  line-height: 65px;
+  position: relative;
+}
+
+.greet {
+  text-align: center;
+  font-size: 75px;
+  color: #C42B54;
+}
+
+.vspace {
+  padding: 10px;
+}
+
+.solar {
+  position: relative;
+  top: 10%;
+  bottom: 4%;
+}
+
+.links {
+  line-height: 30px;
+  position: relative;
+  font-size: 20px;
+  color: #C63E43;
+}
+
+a {
+  color: #C63E43;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap">
+    <script>
+        function getGreeting() {
+          let date = new Date();
+          let hour = date.getHours();
+          if (hour > 5 && hour < 12) {
+              greeting = " morning.";
+          } else if (hour >= 12 && hour <= 17) {
+                greeting = " afternoon.";
+          } else {
+              greeting = " evening.";
+          }
+          document.getElementById('greet').innerHTML = "@idess,<br> good" + greeting;
+        }
+    </script>
+    <title>homepage</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div id="greet"></div>
+        <div class="vspace"></div>
+        <div class="links">
+          <!-- Classes: -->
+          <a href="https://courses.cs.washington.edu/courses/cse333/20wi/">333</a>,
+          <a href="https://courses.cs.washington.edu/courses/cse446/20wi/">446</a>,
+          <a href="https://courses.cs.washington.edu/courses/cse473/20wi/">473</a>,
+          <a href="https://canvas.uw.edu/courses/1370759">492</a>;<br>
+          
+          <!-- Productivity: -->
+          <a href="https://calendar.google.com/calendar/b/1/r?tab=wc1">calendar</a>,
+          <a href="https://www.overleaf.com/project">overleaf</a>,
+          <a href="https://www.gradescope.com/">gradescope</a>,
+          <a href="https://gitlab.cs.washington.edu/">gitlab</a>;<br>
+
+          <!-- Socials: -->
+          <a href="https://www.messenger.com/">messenger</a>,
+          <a href="https://twitter.com/">twitter</a>,
+          <a href="https://www.youtube.com/feed/subscriptions">youtube</a>,
+          <a href="https://www.twitch.tv/">twitch</a>;
+
+        </div>
+        <div class="vspace"></div>
+        <div class="solar"><img src="/assets/solar.png" onload="getGreeting()"></div>
+      </div>
+    </div>
+    <div class="footer"><img src="/assets/footer.png"></div>
+  </body>
+</html>
