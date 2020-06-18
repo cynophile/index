@@ -25,7 +25,7 @@ body {
 }
 
 .vspace {
-  padding: 10px;
+  padding: 15px;
 }
 
 .solar {
@@ -56,4 +56,9 @@ a:hover {
   bottom: 0;
   width: 100%;
   z-index: -1;
+}
+
+.stretch {
+  width:100%;
+  height:100%;
 }
